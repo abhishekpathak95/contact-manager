@@ -1,0 +1,14 @@
+.navbar{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >a{
+        text-transform: capitalize;
+        margin-left: 1rem;
+        font-weight: bold;
+        &:hover{
+            color: red;
+        }
+    }
+}

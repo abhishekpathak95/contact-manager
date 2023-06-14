@@ -1,0 +1,27 @@
+.add{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0% auto;
+    border-top: 5px solid grey;
+    >h1{
+        text-align: center;
+        text-transform: capitalize;
+    }
+    >input{
+        margin-top: 1rem;
+        padding: .5rem;
+        outline: none;
+    }
+    >button{
+        margin: 1rem auto;
+        width: 100px;
+        padding: 0.5rem;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        text-transform: capitalize;
+        font-weight: bold;
+        outline: none;
+    }
+}
